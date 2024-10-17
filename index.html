@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Reminder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="App homepage">
+        <!-- Header Section -->
+        <div class="homepage_header">
+            <h1>Payment Reminder 📅</h1>
+            <input type="text" id="reminderMsg" placeholder="Enter your reminder message">
+            <input type="datetime-local" id="remindAt" class="react-datetime-picker">
+            <button class="button" onclick="addReminder()">Add Reminder</button>
+        </div>
+
+        <!-- Body Section -->
+        <div class="homepage_body" id="reminderList">
+            <h2>Reminder List</h2>
+            <!-- Reminder list content goes here -->
+        </div>
+    </div>
+
+    <!-- JavaScript Inclusion -->
+    <script src="script.js"></script>
+</body>
+
+</html>

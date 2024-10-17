@@ -1,0 +1,65 @@
+.App {
+    display: flex;
+    width: 1000px;
+    height: 770px;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    }
+    
+  .homepage {
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0) linear-gradient(to right bottom, rgb(255, 253, 125), rgb(151, 250, 184), rgb(253, 209, 158)) repeat scroll 0% 0% / auto padding-box border-box;
+    }
+    
+  .homepage_header {
+    margin: 16px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 20%;
+    min-height: fit-content;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(0, 0, 0, 0.1) 0px 8px 16px 0px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    position: relative;
+    }
+    
+  .homepage_header .button {
+    background: rgb(24, 119, 242) none repeat scroll 0% 0% / auto padding-box border-box;
+    border: 1px solid rgb(24, 119, 242);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    width: 372.5px;
+    text-align: center;
+    padding: 8px 0px;
+    margin: 8px;
+    border-radius: 8px;
+    outline: rgb(255, 255, 255) none 0px;
+    cursor: pointer;
+    }
+    
+  .homepage_header input {
+    border: 1px solid rgb(128, 128, 128);
+    outline: rgb(29, 33, 41) none 0px;
+    color: rgb(29, 33, 41);
+    margin: 8px 0px;
+    padding: 6px 0px;
+    width: 388.5px;
+    font-size: 16px;
+    }
+    
+  .react-datetime-picker {
+    width: 388.5px;
+    }
+    
+  .homepage_body {
+    width: 1000px;
+    }
